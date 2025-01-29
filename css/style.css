@@ -1,0 +1,1147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Yellowtail&family=Yesteryear&display=swap');
+
+.html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.top_row_levelup {
+	background-color: #0870A6;
+	height: 45px;
+}
+
+.col-md-6 .Level-up-main {
+	display: inline-flex;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+	width: 336px;
+	height: 27px;
+	margin-top: 6px;
+	margin-left: 110px;
+	font-size: 15px;
+}
+
+.col-md-6 .main_button_cus {
+	margin-top: 7px;
+	margin-left: 340px;
+}
+
+.col-md-6 .main_login_btn {
+	font-size: 12px;
+	padding: 1px 20px;
+	width: 100px;
+	height: 27px;
+	border-radius: 17.5px;
+	color: white;
+	background-color: #2E91C5;
+}
+
+.col-md-6 .main_login_btn:hover {
+	color: #2e91c5;
+	background-color: white;
+}
+
+.col-md-6 .main_signup_btn {
+	font-size: 12px;
+	margin-left: 10px;
+	padding: 1px 20px;
+	width: 100px;
+	height: 27px;
+	border-radius: 17.5px;
+	color: #0870A6;
+	background-color: white;
+}
+
+.col-md-6 .main_signup_btn:hover {
+	color: white;
+	background-color: #2e91c5;
+}
+
+/*header*/
+
+.container-fluid .navbar-brand {
+	margin-left: 40px;
+}
+
+.navbar-brand .main-logo-header {
+	height: 70px;
+}
+
+.navbar-collapse .navbar-nav {
+	margin-right: 60px;
+	gap: 40px;
+}
+
+.nav-item a {
+	color: black;
+}
+
+/*main_section_banner_cus*/
+.main_section_banner_cus {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+.main_section_banner_cus .banner_content {
+	margin-left: 105px;
+	margin-top: 70px;
+}
+
+.banner_content .Level-up-heading-cus {
+	font-size: 55px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.banner_content .Re-designed-heading {
+	font-family: 'yellowtail', cursive;
+	font-size: 95px;
+	color: #ACCE22;
+	margin-left: -15px;
+	margin-top: -30px;
+	text-align: left;
+}
+
+.banner_content .life-insurance-obsessed-paragraph {
+	font-family: 'poppins', sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: left;
+}
+
+.banner_content .Get-Free-Quote-main {
+	display: flex;
+}
+
+.Get-Free-Quote-main .Get-Free-Quote {
+	background-color: white;
+	color: #0870A6;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.Get-Free-Quote-main .Get-Free-Quote:hover {
+	background-color: white;
+	color: #0870A6;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.Get-Free-Quote-main .trustpilot_logo_main {
+	height: 20px;
+	width: 200px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+/*main_section_good_to_know*/
+.main_section_good_to_know {
+	background-color: #094768;
+	height: 150px;
+}
+
+.col-md-12 .main-good-to-know-heading {
+	font-weight: 700;
+}
+
+.col-md-12 .green_border_good_to {
+	background-color: #ACCE22;
+    height: 6px;
+    width: 6%;
+    opacity: 1;
+    margin: 15px auto;
+    border: none;
+}
+
+.col-3 .shield_check_img {
+	height: 45px;
+}
+
+.col-9 .shield_check_heading {
+	color: rgba(159, 193, 210, 1);
+	font-size: 12px;
+	margin: 15px auto;
+}
+
+.col-4 .shiel_check_img {
+	width: 50px;
+	margin-left: 30%;
+}
+
+.col-4 .authorized_and_regulated {
+	color: #9FC1D2;
+	font-size: 12px;
+	margin-top: -35px;
+	text-align: end;
+}
+.col-4 .star_reward_img {
+	width: 50px;
+	margin-left: 30%;
+}
+
+.col-4 .Rated_Excellent {
+	color: #9FC1D2;
+	font-size: 12px;
+	margin-top: -35px;
+	margin-left: 30%;
+	text-align: center;
+}
+
+.col-4 .database_img {
+	width: 50px;
+	margin-left: 20%;
+}
+
+.col-4 .Secured_Application {
+	color: #9fc1d2;
+	font-size: 12px;
+	margin-top: -35px;
+	margin-left: 0%;
+	text-align: center;
+}
+
+/*main_about_the_company*/
+
+.main_about_the_company .main_left_img_about {
+	height: 510px;
+}
+
+.main_left_img_about .about_img {
+	height: 520px;
+	width: 650px;
+}
+
+/*about right side*/
+
+.col-md-6 .main-about-right-side {
+	margin-left: 50px;
+}
+
+.main-about-right-side .quick-easy-and-heading-about {
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.main-about-right-side .green_border_about_the {
+	background-color: #ACCE22;
+    height: 6px;
+    width: 12%;
+    opacity: 1;
+    margin: 0px 13px;
+    border: none;
+}
+
+.row .ABOUT-THE-COMPANY-heading {
+	color: #BCC5CA;
+	font-size: 12px;
+}
+
+
+.col-md-6 .second_about_right_side {
+	margin-left: 50px;
+}
+
+.second_about_right_side .Streamlined_main {
+	
+}
+
+.Streamlined_main .Group-streamlined-img {
+	height: 20px;
+}
+
+.Streamlined_main .Streamlined_heading_main {
+	margin-left: 30px;
+	margin-top: -21px;
+	font-weight: 700;
+}
+
+.Streamlined_main_second .Streamlined_heading_main {
+	font-weight: 700;
+}
+
+.main_stream_paragraph_div .main_stream_paragraph {
+	font-size: 12px;
+	margin-left: 30px;
+	color: #5D5D5D;
+}
+
+.Streamlined_main_second .Group-streamlined-img {
+	height: 20px;
+}
+
+.Streamlined_main_second .Streamlined_heading_main {
+	color: #2A3234;
+	margin-left: 30px;
+	margin-top: -21px;
+}
+
+.second_about_right_side .and_remember_main {
+	background-color: #F1F8FC;
+	height: 85px;
+	margin-left: 10px;
+	border-radius: 20px;
+	width: 480px;
+}
+
+.col-md-12 .and-remember-heading-cus {
+	font-weight: 700;
+	color: #2A3234;
+}
+
+.col-4 .Groupwrong-img {
+	height: 20px;
+	width: 20px;
+}
+
+.col-4 .No-medicals-heading {
+	color: #2A3234;
+	margin-left: 30px;
+	margin-top: -20px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.second_about_right_side .Get-Free-Quote-about-section {
+	background-color: #0870A6;
+	color: white;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+	width: 195px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.second_about_right_side .Get-Free-Quote-about-section:hover {
+	background-color: #0870A6;
+	color: white;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+	width: 195px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+/*applying is easy*/
+
+.col-md-12 .Applying-is-Easy-heading {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.col-md-12 .green_border_applying_is {
+	background-color: #ACCE22;
+    height: 6px;
+    width: 6%;
+    opacity: 1;
+    margin: 15px auto;
+    border: none;
+}
+
+.main_applying_is_easy .Applying-is-easy-01-main {
+	background-color: #FDFFF3;
+}
+
+.main_applying_is_easy .Applying-is-easy-02-main {
+	background-color: #F5FCFF;
+}
+
+.main-pay-01-img .pay-1-img {
+	height: 60px;
+}
+
+.col-md-6 .main-01-heading {
+	font-family: 'Yesteryear', cursive;
+	font-size: 40px;
+	color: #C3E04B;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+.col-md-6 .main-02-heading {
+	font-family: 'Yesteryear', cursive;
+	font-size: 40px;
+	color: #0870A6;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+.col-md-6 .main-03-heading {
+	font-family: 'Yesteryear', cursive;
+	font-size: 40px;
+	color: #844BE0;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+.col-md-12 .green_border_aplying_is_easy {
+	background-color: #ACCE22;
+	width: 75px;
+	height: 6px;
+	margin-left: 625px;
+}
+
+.col-md-12 .Choose-your-payout-heading {
+	color: #2A3234;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	margin-left: 70px;
+}
+
+.col-md-12 .Choose-your-payout-paragraph {
+	color: #5D5D5D;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 70px;
+}
+
+/*main_pricing_card*/
+
+.main_plans_and_pricing {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.col-md-12 .green_border_plans_and {
+	background-color: #ACCE22;
+    height: 6px;
+    width: 6%;
+    opacity: 1;
+    margin: 15px auto;
+    border: none;
+}
+
+.col-md-4 .main_pricing_card_1 {
+	background: linear-gradient(360deg, rgba(255, 255, 255, 0.7) 0%, rgba(207, 207, 207, 0) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+	border: 3px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+;
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.14);
+	border-radius: 25px;
+	width: 280px;
+	margin-right: -60px;
+}
+
+.col-md-4 .main_pricing_card_2 {
+	background-color: rgba(8, 112, 166, 1);
+	border-radius: 25px;
+	width: 280px;
+}
+
+.col-md-4 .main_pricing_card_3 {
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 25px;
+	width: 280px;
+	margin-left: -60px;
+	border: 3px solid;
+border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.14);
+
+}
+
+.main_pricing_card_1 .main_row_pricing_1 {
+	padding: 20px;
+}
+
+.main_pricing_card_2 .main_row_pricing_1 {
+	padding: 20px;
+}
+
+.main_pricing_card_3 .main_row_pricing_1 {
+	padding: 20px;
+}
+
+.col-md-12 .main_Starter_heading {
+	color: #ACCE22;
+	text-align: start;
+	font-weight: 600;
+}
+
+.col-md-6 .main_standard_heading {
+	margin-left: -15px;
+	font-weight: 600;
+}
+
+.col-md-12 .main_Premium_heading {
+	color: rgba(131, 75, 224, 1);
+	font-weight: 600;
+}
+
+.col-md-6 .Most-Popular-heading {
+	background-color: rgba(18, 84, 118, 1);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	width: 100px;
+	height: 25px;
+	font-size: 11px;
+	margin-top: -15px;
+	margin-left: 15px;
+	padding: 4px 5px;
+}
+
+.col-md-12 .main-£15-99-month-heading {
+	color: background: rgba(42, 50, 52, 1);
+;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.main-£15-99-month-heading .month_span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.col-md-12 .vector-img {
+	height: 10px;
+}
+
+.col-md-12 .vector-img-paragraph {
+	color: rgba(93, 93, 93, 1);
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+.col-md-12 .Click-here-for-more-info-heading {
+	font-size: 12px;
+}
+
+.Click-here-for-more-info-heading .Click-here-span {
+	color: rgba(172, 206, 34, 1);
+	font-weight: 600;
+}
+
+.Click-here-for-more-info-heading .Click-here-span-2 {
+	color: rgba(255, 255, 255, 1);
+	font-weight: 600;
+}
+
+.Click-here-for-more-info-heading .Click-here-span-3 {
+	color: rgba(131, 75, 224, 1);
+	font-weight: 600;
+}
+
+.col-md-12 .pricing-buy-now-btn-1 {
+	width: 100%;
+	background-color: rgba(172, 206, 34, 1);
+	color: white;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.col-md-12 .pricing-buy-now-btn-1:hover {
+	width: 100%;
+	background-color: rgba(172, 206, 34, 1);
+	color: white;
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.col-md-12 .pricing-buy-now-btn-2 {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(8, 112, 166, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.col-md-12 .pricing-buy-now-btn-2:hover {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(8, 112, 166, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.col-md-12 .pricing-buy-now-btn-3 {
+	width: 100%;
+	background-color: rgba(132, 75, 224, 1);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+.col-md-12 .pricing-buy-now-btn-3:hover {
+	width: 100%;
+	background-color: rgba(132, 75, 224, 1);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	padding: 15px 50px;
+}
+
+/*Download app section*/
+
+.main_download_our_jamii {
+	background-color: rgba(241, 248, 252, 1);
+	height: 420px;
+}
+
+.col-md-6 .main_left_side_our_jamii {
+	margin-left: 100px;
+}
+
+.col-md-12 .main-Latest-deals-in-your-pocket-heading {
+	font-family: 'Yellowtail', cursive;
+	color: rgba(172, 206, 34, 1);
+}
+
+.col-md-12 .Download-Our-mJamii-Mobile-App-heading {
+	font-weight: 500;
+}
+
+.col-md-12 .green_border_mjamii {
+	background-color: #ACCE22;
+    height: 5px;
+    width: 10%;
+    opacity: 1;
+    margin: 0px 3px;
+    border: none;
+}
+
+.Download-Our-mJamii-Mobile-App-heading .download_our_mjamii_bold {
+	font-weight: 700;
+}
+
+.col-md-4 .android-app-img {
+	width: 90%;
+	
+}
+
+.col-md-4 .apple-store-img {
+	width: 100%;
+	height: 100%;
+}
+
+/*right side img mjamii*/
+
+.col-md-12 .mobile-img-mjamii {
+	width: 70%;
+	height: 420px;
+}
+
+/*contact us section*/
+
+.main_contact_us {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.col-md-6 .contact_us_row_cus {
+	margin-left: 120px;
+}
+
+.col-md-12 .main-contact-heading-left {
+	font-weight: 500;
+}
+
+.col-md-12 .green_border_contact_us {
+	background-color: #ACCE22;
+    height: 5px;
+    width: 12%;
+    opacity: 1;
+    margin: 5px 5px;
+    border: none;
+}
+
+.col-md-12 .phone-icon-img {
+	height: 30px;
+}
+
+.col-md-12 .phone-number-heading {
+	margin-left: 40px;
+	margin-top: -25px;
+}
+
+/*right side form*/
+
+.col-md-12 .card-body-form {
+	height: 390px;
+	width: 55%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+	margin-left: 60px;
+	text-align: left;
+}
+
+.card-body-form .main-row-card-body {
+	padding: 25px;
+}
+
+.col-md-12 .Write-a-comment-heading {
+	font-weight: 600;
+}
+
+.col-md-12 .green_border_write_a_comment {
+	background-color: #ACCE22;
+    height: 5px;
+    width: 20%;
+    opacity: 1;
+    margin: 5px 1px;
+    border: none;
+}
+
+.form-floating {
+	height: 50px;
+}
+
+.form-floating .form-label {
+	font-size: 14px;
+}
+
+.form-floating .form-control {
+	background-color: rgba(255, 255, 255, 0.0);
+}
+
+.form-floating .form-control{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(139, 143, 144, 1);
+}
+
+.form-floating .form-control:focus {
+    background-color: transparent;
+    border-bottom: 1px solid #8b8f90;
+    box-shadow: none;
+}
+
+.send-button-main .send-button {
+	background-color: rgba(8, 112, 166, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	color: white;
+	padding: 10px 50px;
+}
+
+.send-button-main .send-button:hover {
+	background-color: rgba(8, 112, 166, 1);
+	border-radius: 34.5px;
+	font-size: 12px;
+	color: white;
+	padding: 10px 50px;
+}
+
+/*footer header*/
+
+.main_header_footer {
+	background-color: #0c3549;
+}
+
+.navbar-brand .main-logo-header {
+	margin-left: 20px;
+}
+
+.navbar-brand .footer-mjamii-logo-heading {
+	color: white;
+	margin-left: 150px;
+	margin-top: -50px;
+	font-weight: 700;
+}
+
+.navbar-brand .Insurance-redefined-heding-footer {
+	font-family: 'Yellowtail', cursive;
+	font-weight: 400;
+	color: rgba(172, 206, 34, 1);
+	margin-left: 275px;
+	margin-top: -50px;
+}
+
+.nav-item .footer-link-cus {
+	color: white;
+}
+
+/*main_footer_link*/
+.main_footer_link {
+	background-color: #133d55;
+}
+
+.col-md-6 .footer_link_left_area {
+	margin-left: 50px;
+	font-size: 13px;
+}
+
+.footer_link_left_area a {
+	color: white;
+}
+
+.col-md-2 .footer-link-icons-main {
+	height: 25px;
+}
+
+
+
+
+/*media query mobile phone*/
+
+
+
+@media  (max-width: 575px) {
+
+/*	Level-up-main*/
+
+    .top_row_levelup .main-column-level-up {
+    	width: 50%;
+    }
+
+    .top_row_levelup .main-column-level-up-2 {
+    	width: 50%;
+    	text-align: end;
+    }
+
+	.col-md-6 .Level-up-main {
+	display: inline-flex;
+	color: white;
+	font-size: 10px;
+	width: 230px;
+	height: 27px;
+	margin-top: 6px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+  .col-md-6 .main_button_cus {
+	display: inline-flex;
+	text-align: center;
+	margin-left: 0;
+	margin-top: 10px;
+	width: 140px;
+}
+
+.col-md-6 .main_login_btn {
+	font-size: 8px;
+	padding: 0px 0px;
+	width: 90px;
+	height: 18px;
+	border-radius: 17.5px;
+	color: white;
+	background-color: #2E91C5;
+}
+
+.col-md-6 .main_signup_btn {
+	font-size: 8px;
+	padding: 0px 0px;
+	width: 90px;
+	height: 18px;
+	border-radius: 17.5px;
+	color: #0870A6;
+	background-color: white;
+}
+
+/*header*/
+
+.container-fluid .navbar-brand {
+	margin-left: 0px;
+}
+
+.container-fluid .navbar-toggler {
+	font-size: 12px;
+    margin-right: -80px
+}
+
+.navbar-brand .main-logo-header {
+	margin-left: -10px;
+	width: 230px;
+	height: 35px;
+}
+
+.navbar-collapse .navbar-nav {
+	margin: 0px;
+	gap: 0px;
+}
+
+/*main_section_banner_cus*/
+
+.main_section_banner_cus {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+}
+
+.main_section_banner_cus .banner_content {
+	margin-left: 0px;
+	margin-left: 20px;
+}
+
+.banner_content .Level-up-heading-cus {
+	font-size: 35px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.banner_content .Re-designed-heading {
+	font-family: 'yellowtail', cursive;
+	font-size: 60px;
+	color: #ACCE22;
+	margin-left: -7px;
+	margin-top: -10px;
+	text-align: left;
+}
+
+.banner_content .life-insurance-obsessed-paragraph {
+	font-family: 'poppins', sans-serif;
+	font-size: 7px;
+	color: white;
+	text-align: left;
+}
+
+.banner_content .Get-Free-Quote-main {
+	display: flex;
+}
+
+.Get-Free-Quote-main .Get-Free-Quote {
+	background-color: white;
+	color: #0870A6;
+	border-radius: 34.5px;
+	font-size: 8px;
+	padding: 10px 30px;
+}
+
+.Get-Free-Quote-main .trustpilot_logo_main {
+	height: 11px;
+	width: 100px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+/*main_section_good_to_know*/
+
+.container-fluid .main_section_good_to_know {
+	background-color: #094768;
+	height: 150px;
+	margin-right: 12px;
+}
+
+.col-md-12 .main-good-to-know-heading {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.col-md-12 .green_border_good_to {
+	background-color: #ACCE22;
+    height: 5px;
+    width: 8%;
+    opacity: 1;
+    margin: 0px auto;
+}
+
+.col-3 .shield_check_img {
+	width: 100%;
+	height: 20px;
+	margin: 10px auto;
+}
+
+.col-9 .shield_check_heading {
+	color: rgba(159, 193, 210, 1);
+	font-size: 7px;
+	margin: 15px auto;
+	margin-left: -10px;
+}
+
+.col-4 .authorized_and_regulated {
+	color: #9FC1D2;
+	font-size: 12px;
+	margin-top: -35px;
+	text-align: end;
+}
+.col-4 .star_reward_img {
+	width: 100%;
+	margin-left: 0%;
+}
+
+.col-4 .Rated_Excellent {
+	color: #9FC1D2;
+	font-size: 12px;
+	margin-top: -35px;
+	margin-left: 30%;
+	text-align: center;
+}
+
+.col-4 .database_img {
+	width: 100%;
+	margin-left: 0px;
+}
+
+.col-4 .Secured_Application {
+	color: #9fc1d2;
+	font-size: 12px;
+	margin-top: -35px;
+	margin-left: 0%;
+	text-align: center;
+}
+
+/*main_about_the_company*/
+
+.container-fluid .main_about_the_company {
+	margin-right: 10px;
+}
+
+.main_about_the_company .main_left_img_about {
+	height: 410px;
+}
+
+.main_left_img_about .about_img {
+	height: 400px;
+    width: 500px
+}
+
+.main_about_the_company .main-column-about-right-side {
+	width: 100%;
+}
+
+/*about right side*/
+
+.col-md-6 .main-about-right-side {
+	margin-left: 50px;
+}
+
+.main-about-right-side .quick-easy-and-heading-about {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.main-about-right-side .green_border_about_the {
+	background-color: #ACCE22;
+    height: 5px;
+    width: 10%;
+    opacity: 1;
+    margin: 0px 13px;
+}
+
+.row .ABOUT-THE-COMPANY-heading {
+	color: #BCC5CA;
+	font-size: 10px;
+}
+
+
+.col-md-6 .second_about_right_side {
+	margin-left: 50px;
+}
+
+.second_about_right_side .Streamlined_main {
+	
+}
+
+.Streamlined_main .Group-streamlined-img {
+	height: 15px;
+}
+
+.Streamlined_main .Streamlined_heading_main {
+	margin-left: 30px;
+	margin-top: -21px;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.Streamlined_main_second .Streamlined_heading_main {
+	font-weight: 700;
+}
+
+.main_stream_paragraph_div .main_stream_paragraph {
+	font-size: 10px;
+	margin-left: 30px;
+	color: #5D5D5D;
+}
+
+.Streamlined_main_second .Group-streamlined-img {
+	height: 15px;
+}
+
+.Streamlined_main_second .Streamlined_heading_main {
+	color: #2A3234;
+	margin-left: 30px;
+	margin-top: -21px;
+	font-size: 15px;
+}
+
+.second_about_right_side .and_remember_main {
+	background-color: #F1F8FC;
+	height: 85px;
+	margin-left: 10px;
+	border-radius: 20px;
+	width: 480px;
+}
+
+.col-md-12 .and-remember-heading-cus {
+	font-weight: 700;
+	color: #2A3234;
+}
+
+.col-4 .Groupwrong-img {
+	height: 15px;
+	width: 15px;
+}
+
+.col-4 .No-medicals-heading {
+	color: #2A3234;
+	margin-left: 30px;
+	margin-top: -20px;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.second_about_right_side .Get-Free-Quote-about-section {
+	background-color: #0870A6;
+	color: white;
+	border-radius: 34.5px;
+	font-size: 10px;
+	padding: 10px 20px;
+	width: 150px;
+	height: 35px;
+	margin-left: 10px;
+}
+}
+
+/*media query laptop*/
+
+@media (max-width: 991px){
+
+.col-md-6 .main_button_cus {
+    margin-left: 0px;
+    text-align: end;
+    }
+}
+
+/*media query desktop*/
+
+
+@media  (max-width: 1024px) {
+	
+	body,html{
+	overflow-x: hidden;
+	}
+
+}

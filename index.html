@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Insurance Page</title>
+      <!-- css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/8f36357435.js" crossorigin="anonymous"></script>
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@400;600;700&family=Yellowtail&family=Yesteryear&display=swap" rel="stylesheet">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   </head>
+   <body class="body">
+      <div class="container-fluid">
+         <div class="row top_row_levelup">
+            <div class="col-md-6 main-column-level-up">
+               <div class="Level-up-main">
+                  Level-up Insurance Re-designed
+               </div>
+            </div>
+            <div class="col-md-6 main-column-level-up-2">
+               <div class="main_button_cus">
+                  <button class="btn btn-sm main_login_btn">Login</button>
+                  <button class=" btn btn-sm main_signup_btn">Sign up</button>
+               </div>
+            </div>
+         </div>
+         <!-- header -->
+         <header class="main_header">
+            <div class="row">
+               <div class="col-md-12">
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                     <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img class="main-logo-header" src="images/group.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <form>
+                           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                 <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#About">About</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#plans">Plans</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </form>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <!-- main section banner cus -->
+         <div class="row main_section_banner_cus" style="background-image: url(images/Background_banner.jpg);">
+            <div class="banner_content">
+               <h1 class="text-white Level-up-heading-cus">Level-up Insurance</h1>
+               <div class="Re-designed-heading">Re-designed</div>
+               <p class="life-insurance-obsessed-paragraph">life insurance obsessed with making things easy, quick and cheap.</p>
+               <div class="Get-Free-Quote-main">
+                  <button class="btn Get-Free-Quote">Get Free Quote</button>
+                  <div class="trustpilot_logo_main" style="background-image: url(images/trustpilot_logo.png);">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- good to know -->
+        <div class="row main_section_good_to_know">
+         <div class="container">
+            <div class="col-md-12">
+               <h3 class="text-center text-white main-good-to-know-heading mt-3">Good to know</h3>
+               <hr class="green_border_good_to mb-3">
+            </div>
+            <div class="container">
+               <div class="row mb-3">
+
+                  <div class="col-4">
+                  	<div class="row">
+                  		<div class="col-3 text-end">
+                  			<img class="shield_check_img" src="images/shield_check.png">
+                  		</div>
+                  		<div class="col-9">
+                  			<h6 class="shield_check_heading">Authorized and regulated by the FCA</h6>
+                  		</div>
+                  	</div>
+                  </div>
+
+                  <div class="col-4">
+                  	<div class="row">
+                  		<div class="col-3 text-end">
+                  			<img class="shield_check_img" src="images/star_reward.png">
+                  		</div>
+                  		<div class="col-9">
+                  			<h6 class="shield_check_heading">Authorized and regulated by the FCA</h6>
+                  		</div>
+                  	</div>
+                  </div>
+
+                  <div class="col-4">
+                  	<div class="row">
+                  		<div class="col-3 text-end">
+                  			<img class="shield_check_img" src="images/database_lock.png">
+                  		</div>
+                  		<div class="col-9">
+                  			<h6 class="shield_check_heading">Authorized and regulated by the FCA</h6>
+                  		</div>
+                  	</div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+       </div>
+         <!-- About the company -->
+         <div class="row main_about_the_company mt-4" id="About">
+            <div class="col-md-6 main_left_img_about">
+               <img class="about_img" src="images/about_img.png">
+            </div>
+            <div class="col-md-6 main-column-about-right-side" style="width: 580px;">
+               <div class="row main-about-right-side">
+                  <div class="ABOUT-THE-COMPANY-heading mt-3">ABOUT THE COMPANY</div>
+                  <h2 class="quick-easy-and-heading-about">Quick, easy and affordable life insurance.</h2>
+                  <hr class="green_border_about_the">
+               </div>
+               <div class="row second_about_right_side mt-4">
+                  <div class="Streamlined_main">
+                     <img class="Group-streamlined-img" src="images/Group-streamlined.png">
+                     <h6 class="Streamlined_heading_main">Streamlined application process.</h6>
+                     <div class="main_stream_paragraph_div ">
+                        <p class="main_stream_paragraph">Answer some simple questions to get a quote in 3 minutes all online.</p>
+                     </div>
+                  </div>
+                  <div class="Streamlined_main_second mt-3">
+                     <img class="Group-streamlined-img" src="images/Group-streamlined.png">
+                     <h6 class="Streamlined_heading_main">Cheap prices.</h6>
+                     <div class="main_stream_paragraph_div ">
+                        <p class="main_stream_paragraph">Our pay-as-you-go pricing (meaning monthly prices that scale fairly as you age).</p>
+                     </div>
+                  </div>
+                  <div class="row and_remember_main">
+                     <div class="col-md-12">
+                        <h6 class="h6 mt-3 and-remember-heading-cus">And Remember</h6>
+                     </div>
+                     <div class="col-4">
+                        <img class="Groupwrong-img" src="images/Groupwrong.png">
+                        <h6 class="No-medicals-heading">No medicals.</h6>
+                     </div>
+                     <div class="col-4">
+                        <img class="Groupwrong-img" src="images/Groupwrong.png">
+                        <h6 class="No-medicals-heading">No sales calls.</h6>
+                     </div>
+                     <div class="col-4">
+                        <img class="Groupwrong-img" src="images/Groupwrong.png">
+                        <h6 class="No-medicals-heading">No complicated language.</h6>
+                     </div>
+                  </div>
+                  <button class="btn Get-Free-Quote-about-section mt-5">Get Free Quote</button>
+               </div>
+            </div>
+         </div>
+
+         <!-- applying is easy -->
+
+         <div class="row main_applying_is_easy mt-3">
+            <div class="col-md-12">
+               <h3 class="text-center Applying-is-Easy-heading mt-3 mb-3">Applying is Easy</h3>
+               <hr class="green_border_applying_is mb-4">
+            </div>
+            <div class="col-md-4 Applying-is-easy-01-main">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="main-pay-01-img text-center mt-4">
+                        <img class="pay-1-img" src="images/pay-1.png">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="main-01-heading">01</div>
+                  </div>
+                  <div class="col-md-12">
+                     <h6 class="Choose-your-payout-heading mt-2">Choose your payout.</h6>
+                     <p class="Choose-your-payout-paragraph mb-4">Simply choose how much you want to be <br> insured for and create an account.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 Applying-is-easy-02-main">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="main-pay-01-img text-center mt-4">
+                        <img class="pay-1-img" src="images/pay-2.png">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="main-02-heading">02</div>
+                  </div>
+                  <div class="col-md-12">
+                     <h6 class="Choose-your-payout-heading mt-2">Answer some simple questions</h6>
+                     <p class="Choose-your-payout-paragraph">Life’s too short for long boring forms!</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 Applying-is-easy-03-main" style="background-color: #f9f3ff;">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="main-pay-01-img text-center mt-4">
+                        <img class="pay-1-img" src="images/pay-3.png">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="main-03-heading">03</div>
+                  </div>
+                  <div class="col-md-12">
+                     <h6 class="Choose-your-payout-heading mt-2">Buy online and seal the deal.</h6>
+                     <p class="Choose-your-payout-paragraph">Your insurance starts as soon as you make a <br> safe and secure payment online.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- plans and pricing -->
+
+         <div class="row main_plans_and_pricing" style="background-image: url(images/plans-bg-img.png);" id="plans">
+         	
+            <div class="col-md-12">
+               <h3 class="text-center Applying-is-Easy-heading mt-5 mb-3">Plans and Pricing</h3>
+               <hr class="green_border_plans_and mb-4">
+            </div>
+            <div class="col-md-4 mb-5" style="text-align: -webkit-right;">
+               <div class="main_pricing_card_1">
+                  <div class="row main_row_pricing_1">
+                     <div class="col-md-12">
+                        <h5 class="main_Starter_heading">Starter</h5>
+                     </div>
+                     <div class="col-md-12">
+                        <h2 class="main-£15-99-month-heading">£15.99 <span class="month_span"> /month</span></h2>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Neque porro quisquam est qui dolorem ipsum quia dolor sit <br> amet, consectetur.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Quia dolor sit amet, consectetur, adipisci velit.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Quisquam est qui dolorem ipsum quia dolor sit amet.</div>
+                     </div>
+                     <div class="col-md-12 mt-3">
+                        <h6 class="Click-here-for-more-info-heading text-start"><a class="Click-here-span">Click here</a> for more info</h6>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <button class="btn pricing-buy-now-btn-1 mb-3">Buy Now</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- pricing card 2 -->
+            <div class="col-md-4 mb-5" style="text-align: -webkit-center;">
+               <div class="main_pricing_card_2 text-white">
+                  <div class="row main_row_pricing_1">
+                     <div class="col-md-6">
+                        <h5 class="main_standard_heading text-white">Standard</h5>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="Most-Popular-heading">Most Popular</div>
+                     </div>
+                     <div class="col-md-12">
+                        <h2 class="main-£15-99-month-heading">£29.99<span class="month_span"> /month</span></h2>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector-2.png">
+                        <div class="vector-img-paragraph text-white">Neque porro quisquam est qui dolorem ipsum quia dolor sit <br> amet, consectetur.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector-2.png">
+                        <div class="vector-img-paragraph text-white">Quia dolor sit amet, consectetur, adipisci velit.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector-2.png">
+                        <div class="vector-img-paragraph text-white">Quisquam est qui dolorem ipsum quia dolor sit amet.</div>
+                     </div>
+                     <div class="col-md-12 mt-3">
+                        <h6 class="Click-here-for-more-info-heading text-start"><a class="Click-here-span-2">Click here</a> for more info</h6>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <button class="btn pricing-buy-now-btn-2 mb-3">Buy Now</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Pricing card 3 -->
+            <div class="col-md-4 mb-5" style="text-align: -webkit-left;">
+               <div class="main_pricing_card_3">
+                  <div class="row main_row_pricing_1">
+                     <div class="col-md-12">
+                        <h5 class="main_Premium_heading">Premium</h5>
+                     </div>
+                     <div class="col-md-12">
+                        <h2 class="main-£15-99-month-heading">£49.99<span class="month_span"> /month</span></h2>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Neque porro quisquam est qui dolorem ipsum quia dolor sit <br> amet, consectetur.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Quia dolor sit amet, consectetur, adipisci velit.</div>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <img class="vector-img" src="images/Vector.png">
+                        <div class="vector-img-paragraph">Quisquam est qui dolorem ipsum quia dolor sit amet.</div>
+                     </div>
+                     <div class="col-md-12 mt-3">
+                        <h6 class="Click-here-for-more-info-heading text-start"><a class="Click-here-span-3">Click here</a> for more info</h6>
+                     </div>
+                     <div class="col-md-12 text-start mt-3">
+                        <button class="btn pricing-buy-now-btn-3 mb-3">Buy Now</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <!-- download app mjamii -->
+
+         <div class="row main_download_our_jamii mb-5">
+            <div class="col-md-6">
+               <div class="row main_left_side_our_jamii">
+                  <div class="col-md-12 mt-4">
+                     <h1 class="main-Latest-deals-in-your-pocket-heading mt-5">Latest deals in your pocket</h1>
+                  </div>
+                  <div class="col-md-12">
+                     <h1 class="Download-Our-mJamii-Mobile-App-heading">Download Our <span class="download_our_mjamii_bold">mJamii</span> Mobile App</h1>
+                     <hr class="green_border_mjamii">
+                  </div>
+                  <div class="col-md-4 mt-4">
+                     <a href="#"><img class="android-app-img" src="images/android-app.png"></a>
+                  </div>
+                  <div class="col-md-4 mt-4">
+                     <a href="#"><img class="apple-store-img" src="images/apple-store.png"></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="row">
+                  <div class="col-md-12">
+                     <img class="mobile-img-mjamii" src="images/mobile-image.png">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- contact us section -->
+         <div class="row main_contact_us mb-5" style="background-image: url(images/bg.png);" id="contact">
+            <div class="col-md-6">
+               <div class="row contact_us_row_cus mt-4">
+                  <div class="col-md-12 mt-3">
+                     <h1 class="main-contact-heading-left mt-5 text-white">Contact Us</h1>
+                     <hr class="green_border_contact_us">
+                  </div>
+                  <div class="col-md-12 mt-4">
+                     <img class="phone-icon-img" src="images/phone-icon.png">
+                     <h6 class="phone-number-heading text-white">(+44) 78945 63210</h6>
+                  </div>
+                  <div class="col-md-12 mt-4">
+                     <img class="phone-icon-img" src="images/mail-icon.png">
+                     <h6 class="phone-number-heading text-white">example@hotmail.com</h6>
+                  </div>
+                  <div class="col-md-12 mt-4">
+                     <img class="phone-icon-img" src="images/location-icon.png">
+                     <h6 class="phone-number-heading text-white">452 BG Road, London hills, UK</h6>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6">
+            	<div class="row">
+            		<div class="col-md-12">
+            			<div class="card-body-form mt-5">
+                  <div class="row main-row-card-body">
+                     <div class="col-md-12">
+                        <h4 class="Write-a-comment-heading">Write a comment</h4>
+                        <hr class="green_border_write_a_comment">
+                     </div>
+                     <div class="form-floating mb-1">
+                        <input class="form-control form-control" type="Name" id="floatingInput" placeholder="Name" />
+                        <label class="form-label" for="floatingInput">Name</label>
+                     </div>
+                     <div class="form-floating mb-1">
+                        <input class="form-control form-control" type="email" id="floatingInput" placeholder="example123@gmail.com" />
+                        <label class="form-label" for="floatingInput">Email</label>
+                     </div>
+                     <div class="form-floating mb-1">
+                        <input class="form-control form-control" type="number" id="floatingInput" placeholder="phone number" />
+                        <label class="form-label" for="floatingInput">Phone Number</label>
+                     </div>
+                     <div class="form-floating mb-3">
+                        <input class="form-control form-control" type="text" id="floatingInput" placeholder="" />
+                        <label class="form-label" for="floatingInput">Message</label>
+                     </div>
+                     <div class="send-button-main mt-3">
+                        <button class="btn send-button">Send</button>
+                     </div>
+                  </div>
+               </div>
+            		</div>
+            	</div>
+               
+
+            </div>
+         </div>
+         <!-- footer header -->
+         <div class="row main_header_footer">
+            <div class="col-md-12">
+               <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                     <a class="navbar-brand mb-3" href="#">
+                        <img class="main-logo-header" src="images/logo-1.png">
+                        <h3 class="footer-mjamii-logo-heading">mJamii</h3>
+                        <h2 class="Insurance-redefined-heding-footer">Insurance redefined</h2>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <form>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                           <ul class="navbar-nav">
+                              <li class="nav-item">
+                                 <a class="nav-link active footer-link-cus" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link footer-link-cus" href="#About">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link footer-link-cus" href="#plans">Plans</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link footer-link-cus" href="#contact">Contact</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </form>
+                  </div>
+               </nav>
+            </div>
+         </div>
+         <!-- footer link -->
+         <div class="row main_footer_link">
+            <div class="col-md-6">
+               <div class="footer_link_left_area text-white mt-3 mb-3">
+                  Copyright 2023 All Right Reserved by mJamii <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+               </div>
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-3">
+               <div class="row mt-2">
+                  <div class="col-md-2 text-end">
+                     <img class="footer-link-icons-main" src="images/twitter-icon.png" >
+                  </div>
+                  <div class="col-md-2 text-end">
+                     <img class="footer-link-icons-main" src="images/insta-icon.png">
+                  </div>
+                  <div class="col-md-2 text-end">
+                     <img class="footer-link-icons-main" src="images/facebook-icon.png">
+                  </div>
+                  <div class="col-md-2 text-end">
+                     <img class="footer-link-icons-main" src="images/linked-icon.png">
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
